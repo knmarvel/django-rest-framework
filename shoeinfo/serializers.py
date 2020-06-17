@@ -14,10 +14,12 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         model = Group
         fields = ['url', 'name']
 
+
 class ManufacturerSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Manufacturer
         fields = ['url', 'name', 'website']
+
 
 class ShoeSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
@@ -25,13 +27,14 @@ class ShoeSerializer(serializers.HyperlinkedModelSerializer):
         fields = [
             'url',
             'size',
-            'brand-name',
+            'brand_name',
             'manufacturer',
             'color',
             'material',
             'shoe_type',
             'fasten_type'
             ]
+
 
 class ShoeTypeSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
