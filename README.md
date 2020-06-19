@@ -2,6 +2,10 @@
 
 # Django ReST Framework: APIs in a Nutshell 🌰
 
+## Frontend link on master branch: https://github.com/knmarvel/react-and-apis-in-a-nutshell
+
+## Backend link on main branch: https://github.com/knmarvel/django-rest-framework
+
     Due Wednesday by 11:59pm Points 20 Submitting a website url Available Jun 16 at 12am - Jun 20 at 11:59pm 5 days
 
 As backend developers, we arguably spend just as much time focusing on services and endpoints than front-facing rendering. APIs in Python are equally easy to set up in micro-frameworks or full-scale frameworks, but using Django allows us the use of some packages to help make our lives easier.

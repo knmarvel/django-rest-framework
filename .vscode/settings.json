@@ -1,0 +1,6 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "/Users/nynaeve/Library/Caches/pypoetry/virtualenvs/django-rest-framework-apis-in-a-nutshell-dwZ_hJbG-py3.8/bin/python"
+}
